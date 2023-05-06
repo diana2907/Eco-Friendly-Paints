@@ -15,7 +15,7 @@ export const Hero = () => {
     <HeroSection>
       <Container>
         <HeroWrapper>
-          <Logo src={logo} alt="" />
+          <Logo src={logo} alt="logo" />
           <HeroMainText>
             Experience the perfect combination of modern housing & natural
             scenery.
