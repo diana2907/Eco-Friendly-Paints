@@ -9,8 +9,8 @@ export const Container = styled.div`
 export const Wrapper = styled.div`
   &::before {
     content: '';
-    display: block;
     margin: 0 auto;
+    display: block;
     margin-bottom: 32px;
     width: 42px;
     height: 8px;

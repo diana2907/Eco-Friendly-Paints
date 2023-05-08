@@ -3,4 +3,4 @@
 Eco-Friendly Paints For A Healthy Home
 
 Посилання на макет:
-(https://www.figma.com/file/Rk3oWxV2ZK28ta4V293g2G/Untitled?type=design&node-id=0-1&t=oJfrOjwxFDhuoVxF-0)
+(https://www.figma.com/file/1SWEoq7FYwx9ov9FNKHuh7/Guest-House-%2B-(Copy)?type=design&node-id=1-2&t=wiZGIR4mmIZEYUj3-0)
