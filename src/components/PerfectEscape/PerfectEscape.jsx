@@ -8,8 +8,10 @@ import {
   Icon,
   ItemTitle,
   ItemText,
+  ItemBox,
+  Wrapper,
 } from 'components/PerfectEscape/PerfectEscape.styled.jsx';
-import { Container, Wrapper } from 'GlobalStyles';
+import { Container } from 'GlobalStyles';
 import kitchen from '../../images/old/modrn-kitchen.svg';
 import trees from '../../images/old/outdoor-paths.svg';
 import coffee from '../../images/old/Coffee-Maker-Icon.svg';
@@ -35,61 +37,80 @@ export const PerfectEscape = () => {
           <List>
             <Item>
               <Icon src={kitchen} alt="kitchen" />
-              <ItemTitle>Modern Kitchen Appliances</ItemTitle>
-              <ItemText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              </ItemText>
+              <ItemBox>
+                <ItemTitle>Modern Kitchen Appliances</ItemTitle>
+                <ItemText>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </ItemText>
+              </ItemBox>
+            </Item>
+            <Item>
+              <Icon src={conditioner} alt="conditioner" />
+              <ItemBox>
+                <ItemTitle>Air Conditioner</ItemTitle>
+                <ItemText>
+                  Nullam scelerisque aliquam odio et faucibus.
+                </ItemText>
+              </ItemBox>
             </Item>
             <Item>
               <Icon src={trees} alt="trees" />
-              <ItemTitle>Outdoor Paths</ItemTitle>
-              <ItemText>Nulla rhoncus feugiat eros quis consectetur.</ItemText>
-            </Item>
-            <Item>
-              <Icon src={coffee} alt="coffee" />
-              <ItemTitle>Coffee Maker</ItemTitle>
-              <ItemText>
-                Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
-                ultrices, ut faucibus orci tincidunt.
-              </ItemText>
-            </Item>
-
-            <Item>
-              <Icon src={mountings} alt="mountings" />
-              <ItemTitle>Natural Scenery</ItemTitle>
-              <ItemText>
-                Cras commodo consequat orci, in convallis risus egestas non.
-              </ItemText>
-            </Item>
-
-            <Item>
-              <Icon src={conditioner} alt="conditioner" />
-              <ItemTitle>Air Conditioner</ItemTitle>
-              <ItemText>Nullam scelerisque aliquam odio et faucibus.</ItemText>
+              <ItemBox>
+                <ItemTitle>Outdoor Paths</ItemTitle>
+                <ItemText>
+                  Nulla rhoncus feugiat eros quis consectetur.
+                </ItemText>
+              </ItemBox>
             </Item>
 
             <Item>
               <Icon src={storage} alt="storage" />
-              <ItemTitle>Storage Solutions</ItemTitle>
-              <ItemText>
-                Morbi neque ex, condimentum dapibus congue et, vulputate ut
-                ligula.
-              </ItemText>
+              <ItemBox>
+                <ItemTitle>Storage Solutions</ItemTitle>
+                <ItemText>
+                  Morbi neque ex, condimentum dapibus congue et, vulputate ut
+                  ligula.
+                </ItemText>
+              </ItemBox>
+            </Item>
+            <Item>
+              <Icon src={coffee} alt="coffee" />
+              <ItemBox>
+                <ItemTitle>Coffee Maker</ItemTitle>
+                <ItemText>
+                  Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
+                  ultrices, ut faucibus orci tincidunt.
+                </ItemText>
+              </ItemBox>
             </Item>
 
             <Item>
               <Icon src={cutlery} alt="cutlery" />
-              <ItemTitle>Cutlery Selection</ItemTitle>
-              <ItemText>Duis tristique sed lorem a vestibulum.</ItemText>
+              <ItemBox>
+                <ItemTitle>Cutlery Selection</ItemTitle>
+                <ItemText>Duis tristique sed lorem a vestibulum.</ItemText>
+              </ItemBox>
+            </Item>
+
+            <Item>
+              <Icon src={mountings} alt="mountings" />
+              <ItemBox>
+                <ItemTitle>Natural Scenery</ItemTitle>
+                <ItemText>
+                  Cras commodo consequat orci, in convallis risus egestas non.
+                </ItemText>
+              </ItemBox>
             </Item>
 
             <Item>
               <Icon src={pizza} alt="pizza" />
-              <ItemTitle>Take-away Options</ItemTitle>
-              <ItemText>
-                Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus
-                libero ac, cursus quam.
-              </ItemText>
+              <ItemBox>
+                <ItemTitle>Take-away Options</ItemTitle>
+                <ItemText>
+                  Nulla efficitur auctor hendrerit. Etiam ut orci varius,
+                  faucibus libero ac, cursus quam.
+                </ItemText>
+              </ItemBox>
             </Item>
           </List>
         </Wrapper>
