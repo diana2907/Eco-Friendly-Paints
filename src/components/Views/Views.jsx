@@ -2,26 +2,26 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 // import 'slick-carousel/slick/slick-theme.css';
 
-function SampleNextArrow(props) {
-  const { onClick } = props;
-  return (
-    <div
-      onClick={onClick}
-      style={{
-        position: 'absolute',
-        display: 'flex',
-        // marginTop: '20px',
-        // marginLeft: 'auto',
-        // marginRight: '80px',
-        border: '2px solid #52503B',
-        borderRadius: '50%',
-        fill: '#52503B',
-        width: '60px',
-        height: '60px',
-      }}
-    ></div>
-  );
-}
+// function SampleNextArrow(props) {
+//   const { onClick } = props;
+//   return (
+//     <div
+//       onClick={onClick}
+//       style={{
+//         position: 'absolute',
+//         display: 'flex',
+//         // marginTop: '20px',
+//         // marginLeft: 'auto',
+//         // marginRight: '80px',
+//         border: '2px solid #52503B',
+//         borderRadius: '50%',
+//         fill: '#52503B',
+//         width: '60px',
+//         height: '60px',
+//       }}
+//     ></div>
+//   );
+// }
 
 function SamplePrevArrow(props) {
   const { onClick } = props;
