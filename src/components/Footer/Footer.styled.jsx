@@ -5,9 +5,7 @@ export const FooterSection = styled.section`
   color: #ffffff;
   background: #52503b;
 `;
-export const FooterWrapper = styled.div`
-  display: flex;
-`;
+export const FooterWrapper = styled.div``;
 
 export const Pages = styled.div`
   margin-right: 207px;
@@ -66,8 +64,10 @@ export const Text = styled.p`
 
 export const Input = styled.input`
   padding: 16px 30px;
-  //   width: 100%;
+  width: 100%;
   font-family: 'Montserrat';
+  margin: 0;
+  box-sizing: border-box;
 
   font-size: 14px;
   line-height: 1.43;
@@ -78,7 +78,6 @@ export const Input = styled.input`
 `;
 export const Form = styled.form`
   position: relative;
-  //   width: 576px;
 `;
 
 export const Button = styled.button`
@@ -94,3 +93,26 @@ export const Button = styled.button`
   line-height: 1.43;
   color: #ffffff;
 `;
+
+export const MainBox = styled.div`
+  display: flex;
+  margin-bottom: 47px;
+`;
+
+export const DownBox = styled.div`
+  display: grid;
+  grid-row-gap: 20px;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #ffffff;
+`;
+
+export const LogoIcon = styled.img`
+  width: 200px;
+  margin: 0 auto;
+`;
+
+export const Authors = styled.p``;
+
+export const Contacts = styled.p``;

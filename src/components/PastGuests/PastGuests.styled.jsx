@@ -3,13 +3,17 @@ import styled from 'styled-components';
 export const PastGuestsSection = styled.section`
   padding: 100px 0 0 0;
   text-align: center;
-  background: #faf8f0;
+  // background: #faf8f0;
+  background: black;
 `;
 
 export const TitleWrapper = styled.div`
   margin: 0 auto;
   max-width: 600px;
   margin-bottom: 32px;
+`;
+export const Box = styled.div`
+  padding-bottom: 150px;
 `;
 
 export const Title = styled.h2`
